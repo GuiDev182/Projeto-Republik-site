@@ -1,4 +1,4 @@
 # Projeto Republik !
 
-Site feito para o app Republik  - Seja bem vindo !
+Site feito com muito amor 🥰, dores de cabeça 😖  e muita porrada 👊😠 no teclado para o app Republik  - Seja bem vindo ! 
 
