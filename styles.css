@@ -14491,6 +14491,7 @@ section.u-image:not(.u-hover-box),
   height: 0;
   padding: 0;
   overflow: hidden;
+  background-color:rgb(38, 65, 50);
 }
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
