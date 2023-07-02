@@ -1,11 +1,37 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
+
+html {
+  scroll-behavior: smooth;
+}
 
 .logo{
 align-self: center;
+}
+
+.navbar {
+  overflow: hidden;
+  align-self: center;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.img-redes-sociais{
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+p.rollback {
+  margin: 50px;
 }
 
 .fr-clearfix::after {
@@ -99,27 +125,6 @@ align-self: center;
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow: visible; }
-/*  .fr-view[dir="rtl"] blockquote {
-    border-left: none;
-    border-right: solid 2px #5E35B1;
-    margin-right: 0;
-    padding-right: 5px;
-    padding-left: 0; }
-    .fr-view[dir="rtl"] blockquote blockquote {
-      border-color: #00BCD4; }
-      .fr-view[dir="rtl"] blockquote blockquote blockquote {
-        border-color: #43A047; }
-  .fr-view blockquote {
-    border-left: solid 2px #5E35B1;
-    margin-left: 0;
-    padding-left: 5px;
-    color: #5E35B1; }
-    .fr-view blockquote blockquote {
-      border-color: #00BCD4;
-      color: #00BCD4; }
-      .fr-view blockquote blockquote blockquote {
-        border-color: #43A047;
-        color: #43A047; } */
   .fr-view span.fr-emoticon {
     font-weight: normal;
     font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
@@ -564,20 +569,6 @@ ul,
 ol {
   padding-left: 20px;
 }
-/* Fade effect */
-/* Over effect */
-/* Slide effect */
-/* Over and Slide effect */
-/* Flip Left effect */
-/* Flip Right effect */
-/* Flip Top effect */
-/* Flip Bottom effect */
-/* Wobble Left effect */
-/* Wobble Right effect */
-/* Wobble top effect */
-/* Wobble bottom effect */
-/* Zoom and Rotate Effects */
-/* Utility */
 .u-over-slide {
   position: absolute;
   left: 0;
@@ -7265,6 +7256,7 @@ section.u-image:not(.u-hover-box),
   flex: 1;
   max-width: 100%;
   transition-duration: inherit;
+  
 }
 .u-inner-container-layout,
 .u-inner-container-layout > *,
@@ -14491,7 +14483,7 @@ section.u-image:not(.u-hover-box),
   height: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(38, 65, 50);
+  background-color: #264132;
 }
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
@@ -40873,7 +40865,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #EABD4D;
+            background-color: #f5ab56;
         }
 
         .u-input.u-custom-color-1,
@@ -40882,7 +40874,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-custom-color-1[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #EABD4D !important;
+            background-color: #f5ab56 !important;
         }
 
         .u-button-style.u-custom-color-1:hover,
@@ -40923,11 +40915,11 @@ a.u-link.u-text-hover-grey-90:hover {
         input.u-field-input.u-field-input.u-active-custom-color-1:checked
         {
             color: #ffffff !important;
-            background-color: #EABD4D !important;
+            background-color: #f5ab56 !important;
         }
 
         a.u-link.u-hover-custom-color-1:hover {
-            color: #EABD4D !important;
+            color: #f5ab56 !important;
         }
 
         
@@ -41145,14 +41137,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-border-custom-color-1.u-field-input.u-field-input,
         .u-separator-custom-color-1:after
         {
-            border-color: #EABD4D;
-            stroke: #EABD4D;
+            border-color: #f5ab56;
+            stroke: #f5ab56;
         }
 
         .u-button-style.u-border-custom-color-1
         {
-            border-color: #EABD4D !important;
-            color: #EABD4D !important;
+            border-color: #f5ab56 !important;
+            color: #f5ab56 !important;
             background-color: transparent !important;
         }
 
@@ -41176,13 +41168,13 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-1,
         input.u-field-input.u-field-input.u-border-active-custom-color-1:checked
         {
-            color: #EABD4D !important;
-            border-color: #EABD4D !important;
+            color: #f5ab56 !important;
+            border-color: #f5ab56 !important;
         }
 
         .u-link.u-border-custom-color-1[class*="u-border-"]
         {
-            border-color: #EABD4D !important;
+            border-color: #f5ab56 !important;
         }
 
         .u-link.u-border-custom-color-1[class*="u-border-"]:hover
@@ -41353,7 +41345,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-1,
         a.u-button-style.u-text-custom-color-1[class*="u-border-"]
         {
-            color: #EABD4D !important;
+            color: #f5ab56 !important;
         }
 
         a.u-button-style.u-text-custom-color-1:hover,
@@ -41392,7 +41384,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-popupmenu-items.u-text-hover-custom-color-1 .u-nav-link:hover,
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-1 .u-nav-link.active
         {
-            color: #EABD4D !important;
+            color: #f5ab56 !important;
         }
 
         .u-text-custom-color-1 .u-svg-link,
@@ -41401,7 +41393,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-button-style.active > .u-text-active-custom-color-1 .u-svg-link,
         .u-text-hover-custom-color-1:focus .u-svg-link
         {
-            fill: #EABD4D;
+            fill: #f5ab56;
         }
 
         .u-link.u-text-custom-color-1:hover
@@ -41411,7 +41403,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
         a.u-link.u-text-hover-custom-color-1:hover
         {
-            color: #EABD4D !important;
+            color: #f5ab56 !important;
         }
         
         
@@ -42192,10 +42184,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
-        .u-custom-color-1 a,.u-custom-color-2 a,.u-custom-color-3 a,.u-custom-color-4 a,.u-body-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-1-light-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-2-light-1 a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-4-base a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
-        {
-        color: #adcce9;
-        }
+        
         .u-custom-color-1 a:hover,.u-custom-color-2 a:hover,.u-custom-color-3 a:hover,.u-custom-color-4 a:hover,.u-body-color a:hover,.u-palette-1-base a:hover,.u-palette-1-dark-3 a:hover,.u-palette-1-dark-2 a:hover,.u-palette-1-dark-1 a:hover,.u-palette-1 a:hover,.u-palette-1-light-1 a:hover,.u-palette-2-base a:hover,.u-palette-2-dark-3 a:hover,.u-palette-2-dark-2 a:hover,.u-palette-2-dark-1 a:hover,.u-palette-2 a:hover,.u-palette-2-light-1 a:hover,.u-palette-3-dark-3 a:hover,.u-palette-3-dark-2 a:hover,.u-palette-3-dark-1 a:hover,.u-palette-4-base a:hover,.u-palette-4-dark-3 a:hover,.u-palette-4-dark-2 a:hover,.u-palette-4-dark-1 a:hover,.u-palette-5-dark-3 a:hover,.u-palette-5-dark-2 a:hover,.u-palette-5-dark-1 a:hover,.u-grey-40 a:hover,.u-grey-30 a:hover,.u-grey-90 a:hover,.u-grey-80 a:hover,.u-grey-75 a:hover,.u-black a:hover,.u-grey-70 a:hover,.u-grey-60 a:hover,.u-grey-50 a:hover,.u-grey-dark-3 a:hover,.u-grey-dark-2 a:hover,.u-grey-dark-1 a:hover,.u-grey a:hover
         {
         color: #a1a1a1;
