@@ -34,6 +34,10 @@ p.rollback {
   margin: 50px;
 }
 
+.voltar-para-cima{
+  scroll-behavior: smooth;
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
